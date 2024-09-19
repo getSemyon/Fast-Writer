@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowDisyne", "WindowDisyne\WindowDisyne.csproj", "{404A1631-9000-49A1-9E0C-E4AEE4FDF1A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404A1631-9000-49A1-9E0C-E4AEE4FDF1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404A1631-9000-49A1-9E0C-E4AEE4FDF1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404A1631-9000-49A1-9E0C-E4AEE4FDF1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404A1631-9000-49A1-9E0C-E4AEE4FDF1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CCC09AF-8F2E-4A19-BE60-EB04862FE849}
+	EndGlobalSection
+EndGlobal

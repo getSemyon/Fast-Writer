@@ -1,0 +1,49 @@
+﻿<Window x:Class="WindowDisyne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowDisyne"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        MinWidth="800"
+        MinHeight="600"
+        AllowsTransparency="True"
+        Background="Transparent" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="25" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+
+    <Border Background="#524E4F" 
+                Width="auto" Height="auto" 
+                CornerRadius="25">
+            <Border.Effect>
+                <DropShadowEffect Color="#000000" 
+                                  Opacity="0.5" 
+                                  Direction="90" 
+                                  ShadowDepth="2"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 30 0">
+                <Button x:Name="btnMinimize" Content="—" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="White" 
+                        Click="btnMinimize_Click"/>
+                <Button x:Name="btnMaximazi" Content="#" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="White" 
+                        Click="btnMaximazi_Click"/>
+                <Button x:Name="btnClose" Content="X" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="#FF0000" 
+                        Click="btnClose_Click"/>
+            </StackPanel>
+            </Grid>
+            
+        </Border>
+
+</Window>
