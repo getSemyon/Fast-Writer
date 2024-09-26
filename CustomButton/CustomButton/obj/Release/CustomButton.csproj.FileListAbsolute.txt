@@ -17,3 +17,4 @@ D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.csproj
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.csproj.CoreCompileInputs.cache
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.exe
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.pdb
+D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\DictionaryButton.baml

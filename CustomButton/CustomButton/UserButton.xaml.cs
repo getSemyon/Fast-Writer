@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows.Media;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CustomButton
 {
@@ -24,44 +12,43 @@ namespace CustomButton
         {
             InitializeComponent();
 
-            /*BackgroundButton = new SolidColorBrush(Colors.White);
-            ForegroundButton = new SolidColorBrush(Colors.Black);
-            TextButton = "Text";*/
+            DataContext = this;
+
+            ButtonStaticBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFDDDDDD"));
+            ButtonStaticBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF707070"));
+            ButtonStaticForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
+
+            ButtonMouseOverBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFBEE6FD"));
+            ButtonMouseOverBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF3C7FB1"));
+
+            ButtonPressedBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFC4E5F6"));
+            ButtonPressedBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF2C628B"));
+
+            ButtonDisabledBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFF4F4F4"));
+            ButtonDisabledBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFADB2B5"));
+            ButtonDisabledForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF838383"));
+
+            Text = "Text";
         }
+        // Static 
+        public SolidColorBrush ButtonStaticBackground { get; set; }
+        public SolidColorBrush ButtonStaticBorder { get; set; }
+        public SolidColorBrush ButtonStaticForeground { get; set; }
 
-        /*private Brush backgroundButton;
-        public Brush BackgroundButton
-        {
-            get { return backgroundButton; }
+        // MouseOver 
+        public SolidColorBrush ButtonMouseOverBackground { get; set; }
+        public SolidColorBrush ButtonMouseOverBorder { get; set; }
 
-            set {
-                backgroundButton = value; 
-                border.Background = backgroundButton;
-            }
-        }
+        // Pressed 
+        public SolidColorBrush ButtonPressedBackground { get; set; }
+        public SolidColorBrush ButtonPressedBorder { get; set; }
 
-        private Brush foregroundButton;
-        public Brush ForegroundButton
-        {
-            get { return foregroundButton; }
+        // Disabled 
+        public SolidColorBrush ButtonDisabledBackground { get; set; }
+        public SolidColorBrush ButtonDisabledBorder { get; set; }
+        public SolidColorBrush ButtonDisabledForeground { get; set; }
 
-            set
-            {
-                foregroundButton = value;
-                text.Foreground = foregroundButton;
-            }
-        }
-
-        private string textButton;
-        public string TextButton
-        {
-            get { return textButton; }
-
-            set
-            {
-                textButton = value;
-                text.Text = textButton;
-            }
-        }*/
+        public int BorderRadius { get; set; }
+        public string Text { get; set; }
     }
 }
