@@ -1,0 +1,16 @@
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\bin\Debug\DropdaunMenu.exe.config
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\bin\Debug\DropdaunMenu.exe
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\bin\Debug\DropdaunMenu.pdb
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.csproj.AssemblyReference.cache
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.csproj.SuggestedBindingRedirects.cache
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\MainWindow.g.cs
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\App.g.cs
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu_MarkupCompile.cache
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu_MarkupCompile.lref
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\MainWindow.baml
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.g.resources
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.Properties.Resources.resources
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.csproj.GenerateResource.cache
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.csproj.CoreCompileInputs.cache
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.exe
+D:\Progecs\Fast-Writer\DropdaunMenu\DropdaunMenu\obj\Debug\DropdaunMenu.pdb
