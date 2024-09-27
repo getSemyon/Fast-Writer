@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:CustomButton"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="DictionaryButton.xaml" />
     </Application.Resources>
 </Application>

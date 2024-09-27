@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:CustomButton"
              Background="Transparent">
 
-    <Button MinWidth="50" MinHeight="50" Content="{Binding Text}" Foreground="{Binding ButtonStaticForeground}" Background="{Binding ButtonStaticBackground}" BorderBrush="{Binding ButtonStaticBorder}">
+    <Button Style="{x:Null}" MinWidth="50" MinHeight="50" Content="{Binding Text}" Foreground="{Binding StaticForeground}" Background="{Binding StaticBackground}" BorderBrush="{Binding StaticBorder}">
         <Button.Template>
             <ControlTemplate TargetType="Button">
                 <Border x:Name="border" CornerRadius="{Binding BorderRadius}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">

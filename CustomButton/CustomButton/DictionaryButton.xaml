@@ -2,7 +2,46 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <SolidColorBrush x:Key="Baground.State" Color="AliceBlue"/>
-    <SolidColorBrush x:Key="Baground.MouseOver" Color="AliceBlue"/>
-    <SolidColorBrush x:Key="Baground.State" Color="AliceBlue"/>
+    <SolidColorBrush x:Key="Baground.MouseOver" Color="Red"/>
+    <SolidColorBrush x:Key="Baground.Presed" Color="Plum"/>
 
+    <Style x:Key="MainStyleButton" TargetType="Button">
+        <Setter Property="Background" Value="{DynamicResource Baground.State}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button" >
+                    <Border x:Name="border" CornerRadius="20" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                        <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDefaulted" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource Baground.State}"/>
+                        </Trigger>
+
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource Baground.MouseOver}"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource Baground.Presed}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource MainStyleButton}"/>
+
+    <Style x:Key="test" TargetType="Button" BasedOn="{StaticResource MainStyleButton}">
+        <Setter Property="Background" Value="Red"/>
+        
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="0"/>
+            </Style>
+        </Style.Resources>
+        
+    </Style>
 </ResourceDictionary>

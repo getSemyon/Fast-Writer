@@ -18,3 +18,4 @@ D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.csproj
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.exe
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\CustomButton.pdb
 D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\DictionaryButton.baml
+D:\Progecs\Fast-Writer\CustomButton\CustomButton\obj\Release\App.baml

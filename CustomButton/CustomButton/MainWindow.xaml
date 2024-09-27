@@ -6,11 +6,20 @@
         xmlns:local="clr-namespace:CustomButton"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
     <Grid>
-        <local:UserButton Width="100" Height="100" Text="Text" ButtonStaticForeground="AliceBlue" FontSize="20"
-                          ButtonStaticBackground="Red" ButtonStaticBorder="Red"
-                          ButtonMouseOverBackground="SkyBlue" 
-                          BorderRadius="90" Margin="69,117,631,217"/>
+        <local:UserButton Margin="0,159,0,0" Width="100" Height="100" Text="Text" StaticForeground="AliceBlue" FontSize="20"
+                          StaticBackground="Red" StaticBorder="Red"
+                          MouseOverBackground="SkyBlue" 
+                          BorderRadius="90"/>
+
+        <Button Content="Button" BorderThickness="10 5 10 5" Foreground="Black" HorizontalAlignment="Left" Margin="422,167,0,0" VerticalAlignment="Top"/>
+        <Button Style="{x:Null}" Content="Button" HorizontalAlignment="Left" Margin="422,217,0,0" VerticalAlignment="Top">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="0"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>

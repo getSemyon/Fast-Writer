@@ -14,39 +14,39 @@ namespace CustomButton
 
             DataContext = this;
 
-            ButtonStaticBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFDDDDDD"));
-            ButtonStaticBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF707070"));
-            ButtonStaticForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
+            StaticBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFDDDDDD"));
+            StaticBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF707070"));
+            StaticForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#000000"));
 
-            ButtonMouseOverBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFBEE6FD"));
-            ButtonMouseOverBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF3C7FB1"));
+            MouseOverBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFBEE6FD"));
+            MouseOverBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF3C7FB1"));
 
-            ButtonPressedBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFC4E5F6"));
-            ButtonPressedBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF2C628B"));
+            PressedBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFC4E5F6"));
+            PressedBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF2C628B"));
 
-            ButtonDisabledBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFF4F4F4"));
-            ButtonDisabledBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFADB2B5"));
-            ButtonDisabledForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF838383"));
+            DisabledBackground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFF4F4F4"));
+            DisabledBorder = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFADB2B5"));
+            DisabledForeground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF838383"));
 
             Text = "Text";
         }
         // Static 
-        public SolidColorBrush ButtonStaticBackground { get; set; }
-        public SolidColorBrush ButtonStaticBorder { get; set; }
-        public SolidColorBrush ButtonStaticForeground { get; set; }
+        public SolidColorBrush StaticBackground { get; set; }
+        public SolidColorBrush StaticBorder { get; set; }
+        public SolidColorBrush StaticForeground { get; set; }
 
         // MouseOver 
-        public SolidColorBrush ButtonMouseOverBackground { get; set; }
-        public SolidColorBrush ButtonMouseOverBorder { get; set; }
+        public SolidColorBrush MouseOverBackground { get; set; }
+        public SolidColorBrush MouseOverBorder { get; set; }
 
         // Pressed 
-        public SolidColorBrush ButtonPressedBackground { get; set; }
-        public SolidColorBrush ButtonPressedBorder { get; set; }
+        public SolidColorBrush PressedBackground { get; set; }
+        public SolidColorBrush PressedBorder { get; set; }
 
         // Disabled 
-        public SolidColorBrush ButtonDisabledBackground { get; set; }
-        public SolidColorBrush ButtonDisabledBorder { get; set; }
-        public SolidColorBrush ButtonDisabledForeground { get; set; }
+        public SolidColorBrush DisabledBackground { get; set; }
+        public SolidColorBrush DisabledBorder { get; set; }
+        public SolidColorBrush DisabledForeground { get; set; }
 
         public int BorderRadius { get; set; }
         public string Text { get; set; }

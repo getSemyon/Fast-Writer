@@ -14,3 +14,19 @@ D:\Progecs\Fast Write\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.Ge
 D:\Progecs\Fast Write\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.CoreCompileInputs.cache
 D:\Progecs\Fast Write\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.exe
 D:\Progecs\Fast Write\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.pdb
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\bin\Debug\WindowDisyne.exe.config
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\bin\Debug\WindowDisyne.exe
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\bin\Debug\WindowDisyne.pdb
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.AssemblyReference.cache
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.SuggestedBindingRedirects.cache
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\MainWindow.g.cs
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\App.g.cs
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne_MarkupCompile.cache
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne_MarkupCompile.lref
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\MainWindow.baml
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.g.resources
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.Properties.Resources.resources
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.GenerateResource.cache
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.csproj.CoreCompileInputs.cache
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.exe
+D:\Progecs\Fast-Writer\WindowDisyne\WindowDisyne\obj\Debug\WindowDisyne.pdb
