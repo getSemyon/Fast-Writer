@@ -1,0 +1,77 @@
+﻿<Window x:Class="FastWriter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FastWriter"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Title="MainWindow" Height="450" Width="800"
+        AllowsTransparency="True"
+        Background="Transparent" MouseLeftButtonDown="Window_MouseLeftButtonDown" TextInput="Window_TextInput">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="25" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+
+    <Border Background="#524E4F" 
+                Width="auto" Height="auto" 
+                CornerRadius="25">
+        <Border.Effect>
+            <DropShadowEffect Color="#000000" 
+                                  Opacity="0.5" 
+                                  Direction="90" 
+                                  ShadowDepth="2"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Background="#FF373435" CornerRadius="25,25,0,0" Grid.ColumnSpan="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Menu HorizontalAlignment="Left" Margin="12,8" >
+                        <MenuItem Header="Start" Height="24"/>
+                        <MenuItem Header="Regim" Height="24">
+                            <MenuItem Header="Alfabet" Height="24"/>
+                            <MenuItem Header="Numbers" Height="24"/>
+                            <MenuItem Header="All" Height="24"/>
+                        </MenuItem>
+                        <MenuItem Header="Setting" Height="24">
+                            <MenuItem Header="Disane" Height="24"/>
+                            <MenuItem Header="Text Generating" Height="24"/>
+                        </MenuItem>
+                    </Menu>
+
+                    <GridSplitter Width="auto"/>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 30 0" Grid.Column="1">
+                        <Button x:Name="btnMinimize" Content="—" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="White" 
+                        Click="btnMinimize_Click"/>
+                        <Button x:Name="btnMaximazi" Content="#" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="White" 
+                        Click="btnMaximazi_Click"/>
+                        <Button x:Name="btnClose" Content="X" Width="40" Height="40"
+                        BorderBrush="Transparent" Background="Transparent" Foreground="#FF0000" 
+                        Click="btnClose_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Label Name="PresedText" Grid.Row="1" Grid.Column="0" Height="50" Background="Gray" Content="" FontFamily="Lucida Console" FontSize="36" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Padding="5,5,0,5"/>
+            <Label Name="TextTaping" Grid.Row="1" Grid.Column="1" Height="50" Background="LightGray" Content="" FontFamily="Lucida Console" FontSize="36" VerticalContentAlignment="Center" Padding="0,5,5,5"/>
+        </Grid>
+    </Border>
+</Window>

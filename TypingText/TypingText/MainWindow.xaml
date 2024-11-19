@@ -1,0 +1,24 @@
+﻿<Window x:Class="TypingText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TypingText"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" TextInput="Window_TextInput">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="Text" Background="Lavender" Foreground="Black" HorizontalContentAlignment="Left" Content="123!@#11111111111111111" FontSize="36" FontFamily="Cascadia Mono" Grid.Row="1" Grid.Column="1"/>
+        <Label x:Name="TextTaping" Background="Gray" Foreground="AntiqueWhite" HorizontalContentAlignment="Right" Content="" FontSize="36" FontFamily="Cascadia Mono" Grid.Row="1"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\bin\Debug\FastWriter.exe.config
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\bin\Debug\FastWriter.exe
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\bin\Debug\FastWriter.pdb
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.csproj.AssemblyReference.cache
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.csproj.SuggestedBindingRedirects.cache
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\MainWindow.g.cs
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\App.g.cs
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter_MarkupCompile.cache
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter_MarkupCompile.lref
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\MainWindow.baml
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.g.resources
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.Properties.Resources.resources
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.csproj.GenerateResource.cache
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.csproj.CoreCompileInputs.cache
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.exe
+D:\Progecs\Fast-Writer\FastWriter\FastWriter\obj\Debug\FastWriter.pdb

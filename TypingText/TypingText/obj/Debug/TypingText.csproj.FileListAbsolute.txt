@@ -1,0 +1,16 @@
+D:\Progecs\Fast-Writer\TypingText\TypingText\bin\Debug\TypingText.exe.config
+D:\Progecs\Fast-Writer\TypingText\TypingText\bin\Debug\TypingText.exe
+D:\Progecs\Fast-Writer\TypingText\TypingText\bin\Debug\TypingText.pdb
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.csproj.AssemblyReference.cache
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.csproj.SuggestedBindingRedirects.cache
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\MainWindow.g.cs
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\App.g.cs
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText_MarkupCompile.cache
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText_MarkupCompile.lref
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\MainWindow.baml
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.g.resources
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.Properties.Resources.resources
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.csproj.GenerateResource.cache
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.csproj.CoreCompileInputs.cache
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.exe
+D:\Progecs\Fast-Writer\TypingText\TypingText\obj\Debug\TypingText.pdb
